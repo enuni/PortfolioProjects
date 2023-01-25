@@ -1,0 +1,9 @@
+#include "common.h"
+
+	msg_remain 0, "<type 0><color FFFFFF>\
+		中断データがあります。再開しますか？<br>"
+	clear_select_text
+	add_select_text "再開する"
+	add_select_text "最初から"
+	select_text 100, 100
+	msg_delete 0

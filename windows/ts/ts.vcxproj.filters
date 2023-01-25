@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\quest">
+      <UniqueIdentifier>{a335e1a1-cb98-40db-b57a-461aa5411d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\quest">
+      <UniqueIdentifier>{82357f21-2b08-4c54-b561-0beff1ed1ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\effect">
+      <UniqueIdentifier>{a304ca68-32b9-4f4f-82c7-2d2927f27eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\effect">
+      <UniqueIdentifier>{7fc0251b-cbd7-41da-9c17-85d44f22f628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\attack">
+      <UniqueIdentifier>{08b0106c-dcd7-4425-aaf5-ac657a8ad711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\attack">
+      <UniqueIdentifier>{f5fcccec-3df3-4806-a625-cd281d96ff38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\util">
+      <UniqueIdentifier>{0a251648-0098-41a9-b81a-158d0c937277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\util">
+      <UniqueIdentifier>{28939f51-5d14-43cf-bcb3-f411f86bf102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\script">
+      <UniqueIdentifier>{2ab18385-7219-4b8e-851e-bb0fa08a5e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\title">
+      <UniqueIdentifier>{915f9b5b-0625-4471-a224-53f9b7e8106f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\title">
+      <UniqueIdentifier>{36e42a79-9741-45c0-b0d5-2ec25f4131cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\debug">
+      <UniqueIdentifier>{508e02b7-591f-4617-aad3-e62bcfd2c638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\debug">
+      <UniqueIdentifier>{4885feb1-5627-4ea4-b05c-03ec98418411}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\init.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win_main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main_loop.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quest\battle.cpp">
+      <Filter>ソース ファイル\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quest\pull.cpp">
+      <Filter>ソース ファイル\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quest\ball.cpp">
+      <Filter>ソース ファイル\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quest\quest.cpp">
+      <Filter>ソース ファイル\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quest\enemy.cpp">
+      <Filter>ソース ファイル\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="data\src\image_data\obj_main_3d_data.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quest\damage_disp.cpp">
+      <Filter>ソース ファイル\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="data\src\image_data\layout_main_3d_data.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\effect\master_spark.cpp">
+      <Filter>ソース ファイル\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\effect\effect_laser.cpp">
+      <Filter>ソース ファイル\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\attack\attack_laser.cpp">
+      <Filter>ソース ファイル\attack</Filter>
+    </ClCompile>
+    <ClCompile Include="src\attack\attack_explosion.cpp">
+      <Filter>ソース ファイル\attack</Filter>
+    </ClCompile>
+    <ClCompile Include="src\effect\effect_bullet.cpp">
+      <Filter>ソース ファイル\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\attack\attack_bullet.cpp">
+      <Filter>ソース ファイル\attack</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\ts_save_manager .cpp">
+      <Filter>ソース ファイル\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\ts_common.cpp">
+      <Filter>ソース ファイル\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\control.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\disp_3d_bg.cpp">
+      <Filter>ソース ファイル\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quest\battle_bg.cpp">
+      <Filter>ソース ファイル\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="data\src\image_data\font_FOT_Skip_Std_20.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\title\title.cpp">
+      <Filter>ソース ファイル\title</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quest\quest_control.cpp">
+      <Filter>ソース ファイル\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug\deubg_menu.cpp">
+      <Filter>ソース ファイル\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quest\battle_item.cpp">
+      <Filter>ソース ファイル\quest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\init.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quest\battle.h">
+      <Filter>ヘッダー ファイル\quest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quest\pull.h">
+      <Filter>ヘッダー ファイル\quest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\class_list.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quest\ball.h">
+      <Filter>ヘッダー ファイル\quest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quest\quest.h">
+      <Filter>ヘッダー ファイル\quest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quest\enemy.h">
+      <Filter>ヘッダー ファイル\quest</Filter>
+    </ClInclude>
+    <ClInclude Include="data\src\image_data\obj_main_3d_data.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quest\damage_disp.h">
+      <Filter>ヘッダー ファイル\quest</Filter>
+    </ClInclude>
+    <ClInclude Include="data\src\image_data\layout_main_3d_data.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\effect\master_spark.h">
+      <Filter>ヘッダー ファイル\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\effect\effect_laser.h">
+      <Filter>ヘッダー ファイル\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\attack\attack_laser.h">
+      <Filter>ヘッダー ファイル\attack</Filter>
+    </ClInclude>
+    <ClInclude Include="src\attack\attack_explosion.h">
+      <Filter>ヘッダー ファイル\attack</Filter>
+    </ClInclude>
+    <ClInclude Include="src\effect\effect_bullet.h">
+      <Filter>ヘッダー ファイル\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\attack\attack_bullet.h">
+      <Filter>ヘッダー ファイル\attack</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\ts_save_manager.h">
+      <Filter>ヘッダー ファイル\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\ts_common.h">
+      <Filter>ヘッダー ファイル\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\control.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\disp_3d_bg.h">
+      <Filter>ヘッダー ファイル\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quest\battle_bg.h">
+      <Filter>ヘッダー ファイル\quest</Filter>
+    </ClInclude>
+    <ClInclude Include="data\src\image_data\font_FOT_Skip_Std_20.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\title\title.h">
+      <Filter>ヘッダー ファイル\title</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quest\quest_control.h">
+      <Filter>ヘッダー ファイル\quest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debug\debug_menu.h">
+      <Filter>ヘッダー ファイル\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quest\battle_item.h">
+      <Filter>ヘッダー ファイル\quest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\script\battle_1_1_1.teco">
+      <Filter>ソース ファイル\script</Filter>
+    </None>
+  </ItemGroup>
+</Project>

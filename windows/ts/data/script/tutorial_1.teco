@@ -1,0 +1,11 @@
+#include "common.h"
+
+	obj_center_simple 0, LAYOUT_ID_TALK_LEFT_ENABLE
+	obj_change_objid  0, OBJ_ID_BALL_UP_0_0
+	msg "<type 0><color FFFFFF>\
+		いい？マウスか指で画面をドラッグして私達を飛ばしたい方向に<br>\
+		引っ張って、はなつのよ。"
+	obj_center_simple 0, LAYOUT_ID_TALK_LEFT_DISABLE
+	obj_change_objid 0, OBJ_ID_BALL_UP_0_0
+	wait 30
+	

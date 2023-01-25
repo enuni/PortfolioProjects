@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="data\src\image_data\font_FOT_Skip_Std_20.cpp" />
+    <ClCompile Include="data\src\image_data\layout_main_3d_data.cpp" />
+    <ClCompile Include="data\src\image_data\obj_main_3d_data.cpp" />
+    <ClCompile Include="src\attack\attack_bullet.cpp" />
+    <ClCompile Include="src\attack\attack_explosion.cpp" />
+    <ClCompile Include="src\attack\attack_laser.cpp" />
+    <ClCompile Include="src\control.cpp" />
+    <ClCompile Include="src\debug\deubg_menu.cpp" />
+    <ClCompile Include="src\effect\effect_bullet.cpp" />
+    <ClCompile Include="src\effect\effect_laser.cpp" />
+    <ClCompile Include="src\effect\master_spark.cpp" />
+    <ClCompile Include="src\init.cpp" />
+    <ClCompile Include="src\main_loop.cpp" />
+    <ClCompile Include="src\quest\ball.cpp" />
+    <ClCompile Include="src\quest\battle.cpp" />
+    <ClCompile Include="src\quest\battle_bg.cpp" />
+    <ClCompile Include="src\quest\battle_item.cpp" />
+    <ClCompile Include="src\quest\damage_disp.cpp" />
+    <ClCompile Include="src\quest\enemy.cpp" />
+    <ClCompile Include="src\quest\pull.cpp" />
+    <ClCompile Include="src\quest\quest.cpp" />
+    <ClCompile Include="src\quest\quest_control.cpp" />
+    <ClCompile Include="src\title\title.cpp" />
+    <ClCompile Include="src\util\disp_3d_bg.cpp" />
+    <ClCompile Include="src\util\ts_common.cpp" />
+    <ClCompile Include="src\util\ts_save_manager .cpp" />
+    <ClCompile Include="src\win_main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="data\src\image_data\font_FOT_Skip_Std_20.h" />
+    <ClInclude Include="data\src\image_data\layout_main_3d_data.h" />
+    <ClInclude Include="data\src\image_data\obj_main_3d_data.h" />
+    <ClInclude Include="src\attack\attack_bullet.h" />
+    <ClInclude Include="src\attack\attack_explosion.h" />
+    <ClInclude Include="src\attack\attack_laser.h" />
+    <ClInclude Include="src\class_list.h" />
+    <ClInclude Include="src\control.h" />
+    <ClInclude Include="src\debug\debug_menu.h" />
+    <ClInclude Include="src\effect\effect_bullet.h" />
+    <ClInclude Include="src\effect\effect_laser.h" />
+    <ClInclude Include="src\effect\master_spark.h" />
+    <ClInclude Include="src\init.h" />
+    <ClInclude Include="src\quest\ball.h" />
+    <ClInclude Include="src\quest\battle.h" />
+    <ClInclude Include="src\quest\battle_bg.h" />
+    <ClInclude Include="src\quest\battle_item.h" />
+    <ClInclude Include="src\quest\damage_disp.h" />
+    <ClInclude Include="src\quest\enemy.h" />
+    <ClInclude Include="src\quest\pull.h" />
+    <ClInclude Include="src\quest\quest.h" />
+    <ClInclude Include="src\quest\quest_control.h" />
+    <ClInclude Include="src\title\title.h" />
+    <ClInclude Include="src\util\disp_3d_bg.h" />
+    <ClInclude Include="src\util\ts_common.h" />
+    <ClInclude Include="src\util\ts_save_manager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\script\battle_1_1_1.teco" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4870C856-3C87-46D3-A2F5-5D73442ABF6C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ts</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(WINDOWS_ROOT)\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(WINDOWS_ROOT)\common\include;$(WINDOWS_ROOT)\common\dxlib\include;$(WINDOWS_ROOT)\common\dxlib\animation\include;$(WINDOWS_ROOT)\common\dxlib\image_ctrl\include;$(WINDOWS_ROOT)\common\dxlib\script;$(WINDOWS_ROOT)\common\teco\include;$(ProjectDir)\src;$(ProjectDir)\src\quest;$(ProjectDir)\data\src\image_data;$(ProjectDir)\src\effect;$(ProjectDir)\src\attack;$(ProjectDir)\data\anime\dst;$(ProjectDir)\src\util;$(ProjectDir)\src\title;$(ProjectDir)\src\debug;$(BOOST)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(WINDOWS_ROOT)\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(WINDOWS_ROOT)\lib\Debug;$(BOOST)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;nn_common.lib;nn_dxlib.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(WINDOWS_ROOT)\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(WINDOWS_ROOT)\common\include;$(WINDOWS_ROOT)\common\dxlib\include;$(WINDOWS_ROOT)\common\dxlib\animation\include;$(WINDOWS_ROOT)\common\dxlib\image_ctrl\include;$(WINDOWS_ROOT)\common\dxlib\script;$(WINDOWS_ROOT)\common\teco\include;$(ProjectDir)\src;$(ProjectDir)\src\quest;$(ProjectDir)\data\src\image_data;$(ProjectDir)\src\effect;$(ProjectDir)\src\attack;$(ProjectDir)\data\anime\dst;$(ProjectDir)\src\util;$(ProjectDir)\src\title;$(ProjectDir)\src\debug;$(BOOST)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(WINDOWS_ROOT)\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(WINDOWS_ROOT)\lib\Release;$(BOOST)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;nn_common.lib;nn_dxlib.lib;</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

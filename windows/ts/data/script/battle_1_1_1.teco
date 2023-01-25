@@ -1,0 +1,58 @@
+#include "common.h"
+
+	obj_center_simple 0, LAYOUT_ID_TALK_LEFT_ENABLE
+	obj_change_objid  0, OBJ_ID_BALL_UP_0_0
+	msg "<type 0><color FFFFFF>\
+		レミリアのやつ、また変な遊びを始めたみたいね。"
+	obj_center_simple 0, LAYOUT_ID_TALK_LEFT_DISABLE
+	obj_change_objid 0, OBJ_ID_BALL_UP_0_0
+	
+	obj_center_simple 1, LAYOUT_ID_TALK_RIGHT_ENABLE
+	obj_change_objid  1, OBJ_ID_BALL_UP_0_2
+	msg "<type 0><color 00FF00>\
+		「弾幕ごっこはもう古いのよ！時代は○っぱり○ンティングなの<br>\
+		よ！」<br>\
+		ですって。"
+	obj_center_simple 1, LAYOUT_ID_TALK_RIGHT_DISABLE
+	obj_change_objid  1, OBJ_ID_BALL_UP_0_2
+	
+	obj_center_simple 2, LAYOUT_ID_TALK_LEFT_ENABLE
+	obj_change_objid  2, OBJ_ID_BALL_UP_0_1
+	msg "<type 0><color FFC000>\
+		ひっ○りハン○ィング。中々面白そうだぜ。"
+	obj_center_simple 2, LAYOUT_ID_TALK_LEFT_DISABLE
+	obj_change_objid  2, OBJ_ID_BALL_UP_0_1
+	
+	obj_center_simple 0, LAYOUT_ID_TALK_LEFT_ENABLE
+	obj_change_objid  0, OBJ_ID_BALL_UP_0_0
+	msg "<type 0><color FFFFFF>\
+		まあ、いいわ。どうせ暇だったし。<br>\
+		レミリアとっちめて、ついでに館からおいしい物でもいただいて<br>\
+		帰りましょ！"
+	obj_center_simple 0, LAYOUT_ID_TALK_LEFT_DISABLE
+	obj_change_objid 0, OBJ_ID_BALL_UP_0_0
+	
+	obj_center_simple 3, LAYOUT_ID_TALK_RIGHT_ENABLE
+	obj_change_objid  3, OBJ_ID_BALL_UP_0_3
+	msg "<type 0><color C0C0C0>\
+		ちょっと待ってください。どうして私も一緒に行かないと行けな<br>\
+		いんですか。<br>\
+		私、ヒマじゃないんですよ。"
+	obj_center_simple 3, LAYOUT_ID_TALK_RIGHT_DISABLE
+	obj_change_objid  3, OBJ_ID_BALL_UP_0_3
+	
+	obj_center_simple 0, LAYOUT_ID_TALK_LEFT_ENABLE
+	obj_change_objid  0, OBJ_ID_BALL_UP_0_0
+	msg "<type 0><color FFFFFF>\
+		良いでしょ！幽々子には言ってあるし。"
+	obj_center_simple 0, LAYOUT_ID_TALK_LEFT_DISABLE
+	obj_change_objid 0, OBJ_ID_BALL_UP_0_0
+	
+	obj_center_simple 2, LAYOUT_ID_TALK_LEFT_ENABLE
+	obj_change_objid  2, OBJ_ID_BALL_UP_0_1
+	msg "<type 0><color FFC000>\
+		なー、早く行こうぜ。"
+	obj_center_simple 2, LAYOUT_ID_TALK_LEFT_DISABLE
+	obj_change_objid  2, OBJ_ID_BALL_UP_0_1
+	wait 30
+	

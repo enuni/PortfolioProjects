@@ -1,0 +1,208 @@
+#ifndef __SOUND_DATA_SADL__
+#define __SOUND_DATA_SADL__
+
+#include "sound_nns.h"
+
+#define BGM_LOGO			0
+#define BGM_OP				1
+#define BGM_STAGE01			2
+#define BGM_MUSO			3
+#define BGM_SPEA			4
+#define BGM_CUPIN			5
+#define BGM_MSPA			6
+#define BGM_ENDING			7
+#define BGM_MENU			8
+#define BGM_STAGE03			9
+#define BGM_STAGE05			10
+#define BGM_STAGE07			11
+#define BGM_GAMEOVER		12
+#define BGM_ORIN			13
+#define BGM_FLAN			14
+#define BGM_AYA				15
+#define BGM_TENKO			16
+#define BGM_NITORI			17
+#define GROUP_ALL_BGM_START	0
+#define GROUP_ALL_BGM_N		18
+
+#define GROUP_ALL	0
+
+#define	SE_EI				0
+#define	SE_DON				1
+#define	SE_VON				2
+#define	SE_U				3
+#define	SE_AAAAA			4
+#define	SE_CHURIN			5
+#define	SE_DO				6
+#define	SE_DEDO				7
+#define	SE_DEDON			8
+#define	SE_BU				9
+#define	SE_DEDHIN			10
+#define	SE_HAYAITTE			11
+#define	SE_JANPU			12
+#define	SE_SHUN				13
+#define	SE_PYON				14
+#define	SE_POWAN			15
+#define	SE_POWAN2			16
+#define	SE_BOYON			17
+#define	SE_GAKON			18
+#define SE_DYUJUJU			19
+#define	SE_CHON				20
+#define	SE_DODODODOOOON		21
+#define	SE_PISHUN			22
+#define	SE_PIRYUN			23
+#define	SE_BON				24
+#define	SE_DODODEN			25
+#define	SE_DODODODODOU		26
+
+#define	SE_SPELLSTART		27
+#define	SE_LEVELUP			28
+#define	SE_BITSTART			29
+#define	SE_GROUND			30
+#define	SE_MSPARK			31
+
+#define	SE_YATTA			32
+
+#define	SE_MOMIJI			33
+#define	SE_BA				34
+
+#define	SE_HIBANA1			35
+#define	SE_HIBANA2			36
+#define	SE_BOMB				37
+#define SE_ZUKKAAAN			38
+#define SE_PAAN				39
+#define SE_BOYOON			40
+#define SE_BOYON2			41
+#define SE_YUKKURIBOURU		42
+#define SE_DX				43
+#define SE_GYA				44
+#define SE_GASHAN			45
+#define SE_TELYUROROON		46		// てゅーろ'ろおん？_23_135.wav
+#define SE_BAKOON			47		// ばこーん!_28_123.wav
+#define SE_BAGON			48		// ぼご'ん!_28_89.wav
+#define SE_KOOOOOO			49		// こーーーーー_20_86.wav
+#define SE_KORORIN			50		// ころりん？_23_129.wav
+#define SE_FUON				51		// ふおん？_23_57.wav
+#define SE_PAPYOON			52		// ぱびょーん!_23_121.wav
+#define SE_ZA				53		// ザッ_23_164.wav
+#define SE_POKUN			54		// ぽくん_23_130.wav
+#define SE_KASHAKASHA		55		// かしゃかしゃ_23_186.wav
+#define SE_NUUN				56		// ぬーん_23_88.wav
+#define SE_PAN				57		// ぱん!_28_135.wav
+#define SE_PACHIPACHI		58		// ぱちぃぱちぃぱちぃぱちぃぱちぃぱちぃぱちぃ_23_208.wav
+#define SE_THIRRORIRORIN	59		// ティロリロリィ'ン!_23_123.wav
+#define SE_RARA				60		// ララ!_23_300.wav
+#define SE_HIO				61		// ほーるいん、わん？_26_86.wav
+#define SE_KURU				62		// くる!_23_215.wav
+#define SE_BESHI			63		// べし_23_196.wav
+#define SE_PYO				64		// ぴょ_23_276.wav
+#define SE_SU				65		// スッ_26_300.wav
+#define SE_BOYON3			66		// ボヨ'ン_23_237.wav
+#define SE_DADADADA			67		// だだだだ!_23_123.wav
+#define SE_DON2				68		// ド'ン_28_105.wav
+#define SE_KIKI				69		// キキーー！_23_127.wav
+#define SE_TECHUNUU			70		// てちゅんううー！_30_107.wav
+
+#define	GROUP_ALL_SE_START	0
+#define	GROUP_ALL_SE_N		71
+
+static SOUND_GROUP_INFO sSoundGroupInfoArray[] = {
+	{ GROUP_ALL_BGM_START, GROUP_ALL_BGM_N, GROUP_ALL_SE_START, GROUP_ALL_SE_N, },
+};
+
+static char * sBgmFileNameArray[] = {
+	"bgm_logo.mp3",			// 0 Mozart：アイネ・クライネ・ナハト・ムジーク　「第１楽章」
+	"bgm_op.mp3",			// 1 シュトラウス,ヨハン1世 ラデツキー行進曲 Op.228 指揮クレメンス・クラウス ウィーン・フィルハーモニー管弦楽団 1954年3月録音
+	"bgm_stage01.mp3",		// 2 ショパン ポロネーズ第6番変イ長調Op.53「英雄」 Pアルフレッド・コルトー 1933
+	"bgm_muso.mp3",			// 3 ベートーヴェン　交響曲第７番　第１楽章
+	"bgm_spea.mp3",			// 4 シューベルト　交響曲第４番　「悲劇的」　第３楽章
+	"bgm_cupin.mp3",		// 5 ラフマニノフ　チェロソナタト短調　第4楽章
+	"bgm_mspa.mp3",			// 6 魔女達のディスコ .mp3
+	"bgm_ending.mp3",		// 7 パッヘルベル カノン
+	"bgm_menu.mp3",			// 8 ベートーヴェン　エリーゼのために
+	"bgm_stage03.mp3",		// 9 Bizet：カルメンより「第２幕の間奏曲：アルカラの竜騎兵」
+	"bgm_stage05.mp3",		// 10 ブラームス：ヴァイオリン協奏曲 ニ長調 Op.77 第3楽章
+	"bgm_stage07.mp3",		// 11 シューベルト：魔王
+	"bgm_gameover.mp3",		// 12 ラフマニノフ：《幻想小品集》Op.3 から 第2曲 前奏曲 嬰ハ短調 「鐘」
+	"bgm_spell_orin.mp3",	// 13 【エア例大祭】死体旅行 ～ Be of good cheer!【適当アレンジ】.mp3
+	"bgm_spell_flan.mp3",	// 14 狂気Girlフランドール.mp3 Livi様
+	"bgm_spell_aya.mp3",	// 15 風神少女(inst_master).wav
+	"bgm_spell_tenko.mp3",	// 16 有頂天変(inst_master).wav
+	"bgm_spell_nitori.mp3",	// 17 芥川龍之介の河童(inst_master).wav
+	"bgm_neta.mp3",
+};
+
+static char * sSeFileNameArray[] = {
+	"se01.wav",
+	"se02.wav",
+	"se03.wav",
+	"se04.wav",
+	"se05.wav",
+	"se06.wav",
+	"se07.wav",
+	"se08.wav",
+	"se09.wav",
+	"se10.wav",
+	"se11.wav",
+	"se12.wav",
+	"se13.wav",
+	"se14.wav",
+	"se15.wav",
+	"se16.wav",
+	"se17.wav",
+	"se18.wav",
+	"se19.wav",
+	"se20.wav",
+	"se21.wav",
+	"se22.wav",
+	"se23.wav",
+	"se24.wav",
+	"se25.wav",
+	"se26.wav",
+	"se27.wav",
+	"se28.wav",
+	"se29.wav",
+	"se30.wav",
+	"se31.wav",
+	"se32.wav",
+	"se33.wav",
+	"se34.wav",
+	"se35.wav",
+	"se36.wav",
+	"se37.wav",
+	"se38.wav",
+	"se39.wav",
+	"se40.wav",
+	"se41.wav",
+	"se42.wav",
+	"se43.wav",
+	"se44.wav",
+	"se45.wav",
+	"se46.wav",
+	"se47.wav",
+	"se48.wav",
+	"se49.wav",
+	"se50.wav",
+	"se51.wav",
+	"se52.wav",
+	"se53.wav",
+	"se54.wav",
+	"se55.wav",
+	"se56.wav",
+	"se57.wav",
+	"se58.wav",
+	"se59.wav",
+	"se60.wav",
+	"se61.wav",
+	"se62.wav",
+	"se63.wav",
+	"se64.wav",
+	"se65.wav",
+	"se66.wav",
+	"se67.wav",
+	"se68.wav",
+	"se69.wav",
+	"se70.wav",
+	"se71.wav",
+};
+
+#endif //__SOUND_DATA_SADL__

@@ -1,0 +1,35 @@
+<header>
+layout
+201
+</header>
+<back ground path>
+../作成用/メニュー_メイン_アイコン.png
+</back ground path>
+<uvd>
+1
+../uvd/menu.uvd
+</uvd>
+<pos>
+1
+cursor_leaf
+
+1
+True
+17
+19
+15
+17
+-1
+100
+100
+0
+False
+False
+1
+0
+8
+0
+</pos>
+<new pos no>
+1
+</new pos no>
